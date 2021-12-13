@@ -1,0 +1,11 @@
+{
+  "title": "Spin docs",
+  "url": "https://test.test",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "serversideup/spin",
+  "twitter": "@serversideup",
+  "defaultBranch": "main"
+}
