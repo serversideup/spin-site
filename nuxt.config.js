@@ -9,7 +9,7 @@ export default theme({
     ['nuxt-canonical', { baseUrl: 'https://serversideup.net/open-source/spin' }]
   ],
   modules: [
-    ['@nuxtjs/sitemap', {hostname: 'https://serversideup.net'}]
+    '@nuxtjs/sitemap'
   ],
   plausible: {
     domain: 'serversideup.net',
@@ -18,4 +18,9 @@ export default theme({
   router: {
     base: '/open-source/spin/'
   }
+  sitemap: {
+    hostname: 'https://serversideup.net',
+    gzip: true,
+    routes: createSitemapRoutes
+  },
 })
