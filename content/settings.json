@@ -1,9 +1,9 @@
 {
   "title": "Spin docs",
-  "url": "https://test.test",
+  "url": "https://serversideup.net/open-source/spin/",
   "logo": {
-    "light": "/logo-light.svg",
-    "dark": "/logo-dark.svg"
+    "light": "logo-light.svg",
+    "dark": "logo-dark.svg"
   },
   "github": "serversideup/spin",
   "twitter": "@serversideup",
