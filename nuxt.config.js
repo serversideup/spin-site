@@ -11,5 +11,8 @@ export default theme({
   plausible: {
     domain: 'serversideup.net',
     apiHost: 'https://a.521dimensions.com'
+  },
+  router: {
+    base: '/open-source/spin/'
   }
 })
