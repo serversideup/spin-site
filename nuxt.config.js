@@ -8,6 +8,9 @@ export default theme({
     'vue-plausible',
     ['nuxt-canonical', { baseUrl: 'https://serversideup.net/open-source/spin' }]
   ],
+  modules: [
+    '@nuxtjs/sitemap'
+  ],
   plausible: {
     domain: 'serversideup.net',
     apiHost: 'https://a.521dimensions.com'
