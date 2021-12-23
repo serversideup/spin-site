@@ -19,6 +19,10 @@ const createSitemapRoutes = async () => {
 }
 
 export default theme({
+  head: {
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }    ]
+  },
   docs: {
     primaryColor: '#3B82F6'
   },
