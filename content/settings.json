@@ -1,5 +1,5 @@
 {
-  "title": "Spin docs",
+  "title": "Spin - A Docker Development environment tool for Laravel, PHP, Node, and more.",
   "url": "https://serversideup.net/open-source/spin/",
   "logo": {
     "light": "logo-light.svg",
