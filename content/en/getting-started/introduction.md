@@ -69,3 +69,6 @@ That's not all, there are a ton of other actions that you can run to simplify yo
 Honestly, we don't recommend it. The less moving parts you have in production, the better.
 
 The goal of `spin` is to simplify the human experience. For your CI stuff, just use the longer commands directly from Docker. Your CI runner doesn't mind typing those commands in every single time.
+
+## Can I use `spin` if I don't run Docker in "Swarm Mode" in production?
+Of course! Although you might be missing the full benefits of running full Docker in production, using Spin in development may help solve a lot of problems for managing a fleet of development machines.
