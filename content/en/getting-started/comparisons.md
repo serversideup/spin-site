@@ -19,6 +19,6 @@ You should consider `spin` over Laravel Sail if:
 * Vagrant is pretty heavy when it comes to image size and performance requirements
 
 ### Kubernetes
-Kubernetes is great, but over complicated for most apps. If you need great than [99.999% uptime](https://uptime.is/99.999) (and it makes business sense to pay the price for that uptime), then Kubernetes might be a great fit for you.
+Kubernetes is great, but over complicated for most apps. If you need greater than [99.999% uptime](https://uptime.is/99.999) (and it makes business sense to pay the price for that uptime), then Kubernetes might be a great fit for you.
 
 ## Requirements
