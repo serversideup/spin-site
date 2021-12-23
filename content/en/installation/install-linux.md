@@ -1,6 +1,6 @@
 ---
 title: 'Install to Linux'
 description: ''
-position: 2.3
-category: 'Getting Started'
+position: 3.3
+category: 'Installation'
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Install to Windows'
 description: ''
-position: 2.2
-category: 'Getting Started'
+position: 3.2
+category: 'Installation'
 ---

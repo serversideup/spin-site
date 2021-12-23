@@ -1,6 +1,6 @@
 ---
 title: 'Install to macOS'
 description: ''
-position: 2.1
-category: 'Getting Started'
+position: 3.1
+category: 'Installation'
 ---

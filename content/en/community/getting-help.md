@@ -1,6 +1,6 @@
 ---
 title: 'Getting Help'
 description: ''
-position: 4.0
+position: 6.0
 category: 'Community'
 ---

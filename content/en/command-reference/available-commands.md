@@ -1,6 +1,6 @@
 ---
 title: 'Available Commands'
 description: ''
-position: 3.0
+position: 4.0
 category: 'Command Reference'
 ---

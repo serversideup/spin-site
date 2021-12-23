@@ -1,6 +1,6 @@
 ---
 title: 'Contributing'
 description: ''
-position: 4.3
+position: 6.3
 category: 'Community'
 ---

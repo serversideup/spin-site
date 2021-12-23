@@ -1,6 +1,6 @@
 ---
 title: 'Install via NPM/Yarn'
 description: ''
-position: 2.4
-category: 'Getting Started'
+position: 3.4
+category: 'Installation'
 ---
