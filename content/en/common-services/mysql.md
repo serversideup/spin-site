@@ -14,7 +14,7 @@ Please see the [Introduction & Concepts](/getting-started/introduction), then re
 Add this section to your main `docker-compose.yml` file, which will act as a "base". All environments will reference this file, so you can simply manage everything from one location.
 ```yaml
   mysql:
-    # You might need to specifically the platform for M1 Macs
+    # You might need to specifically define the platform for M1 Macs
     platform: linux/x86_64
     image: mysql:8
     networks:
