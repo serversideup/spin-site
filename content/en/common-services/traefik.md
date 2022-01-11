@@ -97,7 +97,7 @@ api:
 ```
 [See the official Traefik configuration reference for all options →](https://doc.traefik.io/traefik/reference/static-configuration/file/)
 
-### Main Traefik Configuration: `./volumes/traefik/traefik-certs.yml`
+### Certificate Configuration: `./volumes/traefik/traefik-certs.yml`
 ```yml
 tls:
   stores:
