@@ -1,6 +1,6 @@
 ---
 title: 'Reporting Bugs'
 description: ''
-position: 6.1
+position: 7.1
 category: 'Community'
 ---
