@@ -7,9 +7,11 @@ category: ''
 fullscreen: true
 navigation: false
 features:
-  - Feature 1
-  - Feature 2
-  - Feature 3
+  - Language independent (works with PHP, Node, Ruby, Python, etc)
+  - Works on Windows, MacOS, and Linux
+  - Replicate 100% of production locally in development
+  - Intelligent & Automated docker image updates on every startup
+  - Follows Docker standards, so there's no extra syntax to learn
 ---
 
 <img src="preview.png" class="light-img" width="1280" height="640" alt=""/>
