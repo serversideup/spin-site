@@ -65,10 +65,25 @@ There are tons of benefits to this:
 
 That's not all, there are a ton of other actions that you can run to simplify your development workflow. [See All Available Commands →](/command-reference/available-commands)
 
-## Do I run spin in production?
+## Do I run `spin` in production?
 Honestly, we don't recommend it. The less moving parts you have in production, the better.
 
 The goal of `spin` is to simplify the human experience. For your CI stuff, just use the longer commands directly from Docker. Your CI runner doesn't mind typing those commands in every single time.
 
 ## Can I use `spin` if I don't run Docker in "Swarm Mode" in production?
 Of course! Although you might be missing the full benefits of running full Docker in production, using Spin in development may help solve a lot of problems for managing a fleet of development machines.
+
+## Where is `spin` installed?
+We offer two areas where Spin can be installed:
+
+#### At the _user_ level
+Users can install this on their system **without root permissions** being requested. The benefit with this installation is that users will be able to use `spin` from anywhere on their system. As long as the alias is configured in their bash profile and there is a `docker-compose.yml` and `docker-compose.dev.yml` in the folder, spin will work.
+
+The other major advantage is `spin` will intelligently check for updates to make sure everyone is always on the latest version.
+
+See the installation instructions on how to install spin on the system at the user level.
+
+#### At the _project_ level
+On larger projects or open source projects, having everyone configure their machines with a system dependency can be a nightmare. Instead of having each user go through steps manually, you can include spin as a dependency via `npm/yarn` or `composer`.
+
+This will give the project manager control of the exact version of spin to run on everyone's machine.
