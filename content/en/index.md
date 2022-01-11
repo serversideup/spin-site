@@ -1,7 +1,7 @@
 ---
-title: ''
+title: 'Spin'
 menuTitle: 'Home'
-description: ''
+description: 'Replicate production in a single command.'
 position: 1
 category: ''
 fullscreen: true
