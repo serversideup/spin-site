@@ -1,7 +1,7 @@
 ---
 title: 'Spin'
 menuTitle: 'Home'
-description: 'Replicate production in a single command.'
+description: 'Spin up production-replicated development environments with a single command.'
 position: 1
 category: ''
 fullscreen: true
@@ -17,7 +17,7 @@ features:
 <img src="preview.png" class="light-img" width="1200" height="630" alt=""/>
 
 ## Replicate production in a single command
-Spin is a bash utility that dramatically improves the development experience for development environments that use Docker.
+Spin is a bash utility that improves the user-experience for teams using Docker. Replicate any environment on any machine, regardless if they are running MacOS, Windows, or Linux.
 
 <list :items="features"></list>
 
