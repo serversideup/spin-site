@@ -10,7 +10,7 @@ We understand that spin isn't the first tool on the planet that solves the pain 
 ### Laravel Sail
 We love Laravel Sail, but it focuses specifically on development. Sail uses Docker, but you won't be able to run Sail's configurations in production.
 
-[Although it's not recommended to run Spin in production](/getting-started/introduction#do-i-run-spin-in-production), Spin enables the system administrator to easily re-use the configurations of Spin in production if you use Docker Swarm.
+Although spin is not specifically designed for production ([read more](/getting-started/introduction#do-i-run-spin-in-production)), Spin enables the system administrator to easily re-use the configurations of Spin in production if you use Docker Swarm.
 
 You should consider `spin` over Laravel Sail if:
 - You want your production environment and development environment to be 100% the same
