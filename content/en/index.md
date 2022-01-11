@@ -14,7 +14,7 @@ features:
   - Follows Docker standards, so there's no extra syntax to learn
 ---
 
-<img src="header.png" class="light-img" width="1200" height="630" alt=""/>
+<img src="preview.png" class="light-img" width="1200" height="630" alt=""/>
 
 ## Replicate production in a single command
 Spin is a bash utility that dramatically improves the development experience for development environments that use Docker.
