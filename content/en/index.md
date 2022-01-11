@@ -14,19 +14,34 @@ features:
   - Follows Docker standards, so there's no extra syntax to learn
 ---
 
-<img src="preview.png" class="light-img" width="1280" height="640" alt=""/>
-<img src="preview-dark.png" class="dark-img" width="1280" height="640" alt=""/>
+<img src="header.png" class="light-img" width="1200" height="630" alt=""/>
 
-[Module]() for [NuxtJS](https://nuxtjs.org).
-
-<alert type="success">
-
-Your documentation has been created successfully!
-
-</alert>
-
-## Features
+## Replicate production in a single command
+Spin is a bash utility that dramatically improves the development experience for development environments that use Docker.
 
 <list :items="features"></list>
 
-<p class="flex items-center">Enjoy light and dark mode:&nbsp;<app-color-switcher class="inline-flex ml-2"></app-color-switcher></p>
+#### 😱 Turn this:
+```bash
+docker compose pull --ignore-pull-failures && docker compose -f docker-compose.yml -f docker-compose.dev.yml up --remove-orphans
+```
+#### ⚡️ Into this:
+```bash
+spin up
+```
+
+### Use Docker the way it's intended with Docker Overrides
+- Docker Overrides are an extremely powerful feature that allows you to standardize your environment. [Learn more →](getting-started/introduction)
+- Replicate 100% of production, no matter what environment you're in
+### Install locally or at the project
+- Install on your system with automatic updates (without requiring root permissions)
+- Available via NPM
+- Available via Composer
+### Works with any language
+- Spin is just a bash wrapper that improves the user-experience for developers
+- Choose any docker image that you'd like or build your own Docker image
+### Follows Docker standards
+- Spin passes your commands to the official Docker commands, so there is no reason for you to learn a domain-specific language or learn another standard
+
+## 🚀 Get started
+[Learn the simple concepts and get started →](getting-started/introduction)
