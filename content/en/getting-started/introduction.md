@@ -63,7 +63,7 @@ spin up
 There are tons of benefits to this:
 <list :items="benefits"></list>
 
-That's not all, there are a ton of other actions that you can run to simplify your development workflow. [See All Available Commands →](/command-reference/available-commands)
+That's not all, there are a ton of other actions that you can run to simplify your development workflow. See the "Command Reference" section on the documentation navigation.
 
 ## Do I run `spin` in production?
 Honestly, we don't recommend it. The less moving parts you have in production, the better.
