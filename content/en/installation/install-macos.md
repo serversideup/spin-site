@@ -4,6 +4,9 @@ description: ''
 position: 3.1
 category: 'Installation'
 ---
+<video width="1200" height="630" alt="Spin Demo Video" autoplay loop muted controls>
+   <source type='video/mp4' src='https://serversideup.net/wp-content/uploads/2022/01/spin-macos-install.mp4'>
+</video>
 
 ## Download and install `spin`
 Run the installer with this simple command in your terminal. **No root permissions required.**
