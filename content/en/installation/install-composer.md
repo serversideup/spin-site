@@ -5,7 +5,7 @@ position: 3.5
 category: 'Installation'
 ---
 
-Installing `spin` at the project level is a great way to deploy `spin` without much configuration from the user's end.
+Installing `spin` at the project level is a great way to deploy `spin` without much configuration from the user's end. [View `spin` on Packagist →](https://packagist.org/packages/serversideup/spin)
 
 ## Add `spin` to your project with Composer
 <alert type="warning">
@@ -14,7 +14,7 @@ This example is using `PHP 8.1`. Be sure to change the image name to match your 
 
 </alert>
 
-We can use Docker to run `composer` and install it on your project. 
+We can use Docker to run `composer` and install it on your project. **Run this command from the parent folder of your project.**
 
 ```bash
 docker run --rm -e "S6_LOGGING=1" -v  $(pwd):/var/www/html serversideup/php:8.1-fpm composer require serversideup/spin --dev
