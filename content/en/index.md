@@ -14,8 +14,8 @@ features:
   - Follows Docker standards, so there's no extra syntax to learn
 ---
 
-<video width="1200" height="630" autoplay loop muted alt="Spin Demo Video">
-  <source src="https://serversideup.net/wp-content/uploads/2022/01/spin-demo.mp4" type="video/mp4" />
+<video width="1200" height="630" alt="Spin Demo Video" autoplay loop muted>
+  <source src="https://serversideup.net/wp-content/uploads/2022/01/spin-demo-video.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
