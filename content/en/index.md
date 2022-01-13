@@ -14,7 +14,10 @@ features:
   - Follows Docker standards, so there's no extra syntax to learn
 ---
 
-<img src="preview.png" class="light-img" width="1200" height="630" alt=""/>
+<video width="1200" height="630" autoplay loop muted alt="Spin Demo Video">
+  <source src="https://serversideup.net/wp-content/uploads/2022/01/spin-demo.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ## Replicate production in a single command
 Spin is a bash utility that improves the user-experience for teams using Docker. Replicate any environment on any machine, regardless if they are running MacOS, Windows, or Linux.
