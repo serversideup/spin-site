@@ -93,3 +93,6 @@ docker run --rm hello-world
 It should return something like this.
 
 ![Docker Run Hello World!](windows/docker-run-hello-world.png)
+
+## TODO
+* Need to add detailed instructions how to install `spin` on the Windows with WSL
