@@ -11,10 +11,14 @@ This document is a work in progress. We're currently testing some things out and
 
 </alert>
 
-
-
-## Installing Windows Subsystem for Linux (WSL)
+## Pre-requisites
 Windows requires a "subsystem Linux" distribution which takes some configuring on a brand new machine. Once configured, Linux will be running as a virtual machine on your Windows computer, allowing you to run Docker.
+
+You'll need the following services configured on your Windows machine:
+* Windows Subsystem Linux
+* Docker Desktop
+
+## Prepare your Windows Machine
 
 ### Install The Kernel Update
 
@@ -24,7 +28,7 @@ If you do not install this update, you will see this error on launch of Docker D
 
 ![WSL 2 Installation Warning](windows/wsl-incomplete.png)
 
-# Install Windows Subsystem Linux (WSL)
+### Install Windows Subsystem Linux (WSL)
 
 <alert type="info">
 
@@ -46,7 +50,7 @@ wsl --install -d ubuntu
 
 ![WSL Install Command](windows/wsl-install.png)
 
-# Install Docker Desktop
+## Install Docker Desktop
 
 Download and install the latest version of Docker Desktop from Docker's Website [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
