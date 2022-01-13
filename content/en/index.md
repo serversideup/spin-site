@@ -24,6 +24,8 @@ Spin is a bash utility that improves the user-experience for teams using Docker.
 
 <list :items="features"></list>
 
+## Improve the development experience
+
 #### 😱 Turn this:
 ```bash
 docker compose pull --ignore-pull-failures && docker compose -f docker-compose.yml -f docker-compose.dev.yml up --remove-orphans
