@@ -15,8 +15,8 @@ features:
 ---
 
 <video width="1200" height="630" alt="Spin Demo Video" autoplay loop muted>
-  <source src="https://serversideup.net/wp-content/uploads/2022/01/spin-demo-video.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
+   <source type='video/mp4' src='https://serversideup.net/wp-content/uploads/2022/01/spin-demo-hd.mp4' media='(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)'>
+   <source type='video/mp4' src='https://serversideup.net/wp-content/uploads/2022/01/spin-demo-sd.mp4' media='(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)'>
 </video>
 
 ## Replicate production in a single command
