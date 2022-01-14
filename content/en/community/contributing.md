@@ -10,6 +10,12 @@ Open source projects are worthless without good documentation. If you find somet
 
 <br />[View the docs repo →](https://github.com/serversideup/spin-site)
 
+## Testing beta features
+If you'd like to help us test beta releases, please add `--beta` to the install script:
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/serversideup/spin/main/tools/install.sh)" "" --beta
+```
+
 ## Request Features
 We have a guide on how to request features:
 <br />[Request features →](https://community.serversideup.net/t/requesting-features-for-spin/537)
