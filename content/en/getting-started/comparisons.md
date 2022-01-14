@@ -20,6 +20,9 @@ You should consider `spin` over Laravel Sail if:
 * Vagrant is intended for development machines only
 * Vagrant is pretty heavy when it comes to image size and performance requirements
 
+### MAMP & MAMP PRO
+* You would **never** run MAMP in production
+
 ### Kubernetes
 Kubernetes is great, but over complicated for most apps. If you need greater than [99.999% uptime](https://uptime.is/99.999) (and it makes business sense to pay the price for that uptime), then Kubernetes might be a great fit for you.
 
