@@ -23,7 +23,7 @@ features:
 
 <list :items="features"></list>
 
-Inspired by [Chris Fidao](https://twitter.com/fideloper) and [Laravel Sail](https://laravel.com/docs/8.x/sail), Spin aims to speed up and simplify the management of development environments -- no matter which language you're developing in.
+Inspired by [Chris Fidao](https://twitter.com/fideloper) and [Laravel Sail](https://laravel.com/docs/8.x/sail), Spin aims to speed up and simplify the management of development environments -- no matter which language or operating system you're developing with.
 
 ## Improve the development experience
 
