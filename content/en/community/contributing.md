@@ -5,6 +5,15 @@ position: 7.4
 category: 'Community'
 ---
 
+## Contributing to documentation
+Open source projects are worthless without good documentation. If you find something is not clear, we'd love to have your help.
+
+<br />[View the docs repo →](https://github.com/serversideup/spin-site)
+
+## Request Features
+We have a guide on how to request features:
+<br />[Request features →](https://community.serversideup.net/t/requesting-features-for-spin/537)
+
 ## Releasing a new version
 Everything is based off the version defined in `package.json`. To publish a version, follow these steps:
 
