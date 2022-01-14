@@ -41,8 +41,8 @@ spin up
 - Replicate 100% of production, no matter what environment you're in
 ### Install locally or at the project
 - Install on your system with automatic updates (without requiring root permissions)
-- Available via NPM
-- Available via Composer
+- Available via [NPM](https://www.npmjs.com/package/@serversideup/spin)
+- Available via [Composer on Packagist](https://packagist.org/packages/serversideup/spin)
 ### Works with any language
 - Spin is just a bash wrapper that improves the user-experience for developers
 - Choose any docker image that you'd like or build your own Docker image
