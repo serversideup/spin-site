@@ -10,7 +10,6 @@ This guide has a few critical assumptions before moving forward:
 1. You have `spin` installed on your machine
 1. You're starting a new, simple Laravel project
 1. You have Docker installed and running on your machine
-1. You've [configured an additional loopback address](helpful-docker-configurations/add-loopback-address) for Docker
 
 ## Create a new Laravel Project with Composer
 <alert type="warning">
