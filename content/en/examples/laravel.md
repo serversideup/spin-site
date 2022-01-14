@@ -159,4 +159,7 @@ Using [exec](command-reference/exec), let's run a command in our existing PHP co
 spin exec php php artisan migrate
 ```
 
-If everything is up and running correctly, you should see the migrations completed successfully. 🥳
+If everything is up and running correctly, you should see the migrations completed successfully.
+
+## Adding services
+This is a very basic example of getting up and running with Laravel. If you're looking to add more services, check out the "Common Services" section in the navigation for more advanced use cases!
