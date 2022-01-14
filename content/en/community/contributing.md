@@ -11,7 +11,7 @@ Open source projects are worthless without good documentation. If you find somet
 <br />[View the docs repo →](https://github.com/serversideup/spin-site)
 
 ## Testing beta features
-If you'd like to help us test beta releases, please add `--beta` to the install script:
+If you'd like to help us test beta releases, please run the following script:
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/serversideup/spin/main/tools/install.sh)" "" --beta
 ```
