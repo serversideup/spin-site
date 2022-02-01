@@ -66,9 +66,9 @@ There are tons of benefits to this:
 That's not all, there are a ton of other actions that you can run to simplify your development workflow. See the "Command Reference" section on the documentation navigation.
 
 ## Do I run `spin` in production?
-Honestly, we don't recommend it. The less moving parts you have in production, the better.
+It is recommended to NOT install `spin` on a production system. You can use [Docker Swarm Mode](https://docs.docker.com/engine/swarm/) to run your servers in production. If you're running CI, just use the longer commands directly from Docker (docker-compose -f docker-compose.yml -f docker-compose.ci.yml). 
 
-The goal of `spin` is to simplify the human experience. For your CI stuff, just use the longer commands directly from Docker. A CI runner doesn't mind typing in long commands every single time. 😃
+Spin focuses on simplifying the *human* experience. A CI runner doesn't mind typing in longer commands every single time. 😃
 
 ## Can I use `spin` if I don't run Docker in "Swarm Mode" in production?
 Of course! Although you might be missing the full benefits of running full Docker in production, using Spin in development may help solve a lot of problems for managing a fleet of development machines.
