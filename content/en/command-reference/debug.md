@@ -1,7 +1,7 @@
 ---
 title: 'debug'
 description: ''
-position: 5.0
+position: 5.1
 category: 'Command Reference'
 ---
 ## Purpose
