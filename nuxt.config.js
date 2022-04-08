@@ -38,7 +38,7 @@ export default theme({
     apiHost: 'https://a.521dimensions.com'
   },
   router: {
-    base: '/open-source/spin/'
+    base: process.env.ROUTER_BASE_URL || '/'
   },
   sitemap: {
     hostname: 'https://serversideup.net',
