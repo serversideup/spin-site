@@ -36,7 +36,7 @@ Files to modify:
 
 You can use something like `nano` or `vim` to modify these files.
 
-## Source 
+## Apply your changes
 To apply the changes, simply restart your terminal or you can source the file you just modified:
 
 ```bash
