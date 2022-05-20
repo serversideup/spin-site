@@ -1,7 +1,7 @@
 ---
 title: 'help'
 description: ''
-position: 5.2
+position: 5.4
 category: 'Command Reference'
 ---
 ## Purpose

@@ -1,7 +1,7 @@
 ---
 title: 'logs'
 description: ''
-position: 5.4
+position: 5.6
 category: 'Command Reference'
 ---
 ## Purpose

@@ -1,7 +1,7 @@
 ---
 title: 'update'
 description: ''
-position: 5.7
+position: 5.9
 category: 'Command Reference'
 ---
 ## Purpose
