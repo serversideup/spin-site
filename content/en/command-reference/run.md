@@ -18,6 +18,11 @@ spin exec php composer install
 The above command runs `composer install` inside of the `php` service.
 
 ## Official Documentation & Additional Options
+
+#### Spin Specific Options
+- `--no-pull`: Do not automatically pull docker images.
+
+### Official Docker Options
 This command is a shortcut for [`docker-compose run`](https://docs.docker.com/compose/reference/run/) and can accept additional options that you pass to it.
 
 ## Special notes
