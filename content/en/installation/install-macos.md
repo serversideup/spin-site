@@ -8,8 +8,13 @@ category: 'Installation'
    <source type='video/mp4' src='https://serversideup.net/wp-content/uploads/2022/01/spin-macos-install.mp4'>
 </video>
 
+## Install Docker Desktop
+MacOS does not ship with Docker by default. To get Docker installed, you will need "Docker Desktop", which is the official desktop tool developed by Docker.
+
+[Learn how to install Docker Desktop →](https://docs.docker.com/desktop/mac/install/)
+
 ## Download and install `spin`
-Run the installer with this simple command in your terminal. **No root permissions required.**
+Once Docker is installed, you are now ready to install `spin`. Run the installer with this simple command in your terminal. **No root permissions required.**
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/serversideup/spin/main/tools/install.sh)"
